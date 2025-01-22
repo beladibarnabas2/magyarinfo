@@ -1,9 +1,21 @@
 body{
     margin-top: 0%;
+    text-shadow: #383737 1px 1px 1px;
 }
 main{
-    background-color: lemonchiffon;
+    background-color: rgb(247, 240, 182);
     margin: 0% 8% 0% 8%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+section{
+  padding: 2%;
+}
+
+img{
+  border-radius: 1%;
+  border: #333 2px solid black;
 }
 
 header{
