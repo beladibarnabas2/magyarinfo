@@ -1,6 +1,6 @@
 body{
     margin-top: 0%;
-    text-shadow: #383737 1px 1px 1px;
+    text-shadow: #383737 5px 5px 5px;
 }
 main{
     background-color: rgb(247, 240, 182);
@@ -10,7 +10,7 @@ main{
 }
 
 section{
-  padding: 2%;
+  padding: 1%;
 }
 
 img{
