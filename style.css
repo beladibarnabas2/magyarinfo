@@ -63,3 +63,9 @@ img{
   border-radius: 3px 3px;
   height: 10vw;
 }
+
+form{
+  background-color: white;
+  padding: 2%;
+  border: solid black 2px;
+}
