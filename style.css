@@ -60,6 +60,6 @@ aside{
 
 img{
   border: 2px solid black;
-  border-radius: 200px 200px;
-  
+  border-radius: 3px 3px;
+  height: 10vw;
 }
