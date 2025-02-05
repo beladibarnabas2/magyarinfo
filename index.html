@@ -9,15 +9,16 @@
 <body>
 
     <main>
-
+        <header></header>
         <ul class="navbar">
-            <li class="navbar2"><a href="#home">Home</a></li>
+            <li class="navbar2"><a href="#m3">M-3 jelentősége</a></li>
             <li class="navbar2"><a href="#jelentkezes">Jelentkezés</a></li>
             <li class="navbar2"><a href="https://mernokvagyok.hu" target="_blank">Forrás</a></li>
         </ul>
 
-        <h1>Magyar Informatika Napja</h1>
+
             <section>
+                <h1>Magyar Informatika Napja</h1>
                 <p>
                     Az M-3 terveit a Szovjetunió Tudományos Akadémiájának Energetikai Kutatóintézetében dolgozták ki 1956-58 között. A cél egy, az abban az időben a működő katonai célokra szolgáló nagy számítógépeknél (BESZM, Sztrela) olcsóbb és kisebb polgári felhasználásra alkalmas számítógép létrehozása volt. Magyarországon 1956-ban hozták létre Varga Sándor vezetésével az MTA Kibernetikai Kutatócsoportját. A forradalom miatt a kutatócsoport valójában 1957 februárjában kezdte meg működését, de még ennek az évnek augusztusában hozzákezdett a Szovjetunióból kapott tervdokumentáció alapján az első magyar gyártású számítógép építéséhez. A számítógép kizárólag magyar gyártmányú a Tungsram által gyártott világszintvonalú szubminiatűr elektroncsövekből épült. Egyedi magyar fejlesztés volt a memóriát helyettesítő mágnesdob is.
 
@@ -26,7 +27,11 @@
                     Az első magyar M–3 az MTA Számítástechnikai Központjában 1960 és 1965 között működött üzemszerűen. 1965-ben a szegedi József Attila Tudományegyetemre szállították, ahol 1968. január 2-ig működött. (Egy ún. nulladik generációs számítógépet már az M-3 előtt megépítettek a Műegyetemen Kozma László irányításával, ez a masina azonban elektromágneses relékből épült, még nem felelt meg a Neumann-elveknek.)
                 </p>
                 <aside>
-                    <img src="img/Jandy-Geza-ifj..jpg" alt="Jandy Géza">
+
+                    <caption>
+                        <img src="img/Jandy-Geza-ifj..jpg" alt="Jandy Géza">
+                        <h1>leiras</h1>
+                    </caption>
                     <img src="img/kep1.jpg" alt="kep">
                     <img src="img/Kreko-Bela-fenykepe-r.jpg" alt="Krekó Béla">
                 </aside>
@@ -38,7 +43,7 @@
                     A gépet szegedi működése végén szétszerelték, alkatrészeit más célokra felhasználták. Az első magyar fejlesztésű elektronikus számítógép lévén, fontos szerepet játszott a számítástechnikai kultúra hazai elterjesztésében. Az MTA KKCS munkatársai a későbbiekben a hazai számítástechnikai fejlesztések és alkalmazások meghatározó személyiségei lettek.
                 </p>
 
-                <h3>Az M-3 jelentősége</h3>
+                <h3 id="m3">Az M-3 jelentősége</h3>
                 <p>Az M–3 elsődlegesen műszaki tudományos számítások végzésére tervezték. Kiválóan alkalmas volt közönséges és parciális differenciálegyenletek integrálására. Nem csak lineáris, hanem           nemlineáris egyenletek esetén is. Sokváltozós algebrai és transzcendens egyenletek megoldására és lineáris programozási feladatok elvégzésére.
                     Az M–3-as számítógépnek, és a gépet létrehozó Kibernetikai Kutató Csoportnak a hatása a magyar informatikára szinte felmérhetetlen. Létrejött az a szakmai műhely, amely képes volt az országban először egy működő számítógépet felépíteni, kialakult az az informatikus gárda amelyik a feladat kitűzésétől annak kódolásán át komplett feladatok megoldására képes volt. És nem utolsósorban, kialakult az a felhasználói kör, amely megértette a számítástechnika jelentőségét, és megszületett a számítógép használt iránti igény a gazdaság legkülönbözőbb területein.</p>
                 <p>Felsorolásként néhány az M–3 segítségével végzett nagyobb jelentőségű munka:</p>
@@ -52,12 +57,46 @@
                 </section>
 
 
-        <h3>Magyar Informatika Napja konferenciára jelentkezés</h3>
-        <form action="" id="jelentkezes">
-            
 
-
-        </form>
+        <form action="" name="data">
+            <h3>Magyar Informatika Napja konferenciára jelentkezés</h3>
+            <label for="jegy">Hány jegyet szeretne venni?</label>
+            <input type="number" name="hany" id="jegy" /><br /><br />
+            <label for="18"> Elmultál 18 éves?</label>
+            <label for="igen">Igen</label>
+            <input type="radio" name="ig" id="igen" required />
+            <label for="nem">Nem</label>
+            <input type="radio" name="ne" id="nem" required /><br /><br />
+  
+            <label for="nev">Teljes név:</label>
+            <input type="text" name="sajat" id="nev" /><br /><br />
+  
+            <label for="email">Email cím:</label>
+            <input type="email" name="emailcim" id="email" /><br /><br />
+  
+            <label for="telo">Telefonszám:</label>
+            <input type="number" name="tel" id="telo" /><br /><br />
+  
+            <label for="nap"> Hány napra szeretnél szállást foglalni:</label
+            ><br />
+            <label for="1">1</label>
+            <input type="radio" name="nap" id="1" value="8000" />
+            <label for="2">2</label>
+            <input type="radio" name="nap" id="2" value="10000" />
+            <label for="nem">nem kérek</label>
+            <input type="radio" name="nap" id="nem" value="0" /><br />
+  
+            <p>Egyéb szolgáltatások:</p>
+            <select name="adat" id="adatok">
+              <option value="2000">Reggeli</option>
+              <option value="0">nem kér</option>
+              <option value="3000">reggeli és vacsora</option></select
+            ><br />
+            <br />
+            <input type="button" onclick="szamitas()" value="Küldés" />
+             <h3 id="osszeg"></h3>
+          </form>
+  
         
         <footer>
             <p>készítette: Béládi Barnabás, Kovács Balázs</p>
