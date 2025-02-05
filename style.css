@@ -1,54 +1,65 @@
 body{
-    margin-top: 0%;
-    text-shadow: #383737 5px 5px 5px;
+  margin-top: 0%;
+  text-shadow: #383737 5px 5px 5px;
 }
 main{
-    background-color: rgb(247, 240, 182);
-    margin: 0% 8% 0% 8%;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+  background-color: rgb(247, 240, 182);
+  margin: 0% 8% 0% 8%;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 
 section{
-  padding: 1%;
+padding: 1%;
 }
 
 img{
-  border-radius: 1%;
-  border: #333 2px solid black;
+border-radius: 1%;
+border: #333 2px solid black;
 }
 
 header{
-    background-image: url(img/SZN_6503-scaled.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 10vw;
+  background-image: url(img/SZN_6503-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vw;
 }
 
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar2 {
+  float: left;
+}
+
+.navbar2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar2 a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  border: 2px solid black;
+  border-radius: 200px 200px;
   
-  .navbar2 {
-    float: left;
-  }
-  
-  .navbar2 a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .navbar2 a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+}
