@@ -25,7 +25,7 @@ header{
     height: 10vw;
 }
 
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,11 +33,11 @@ ul {
     background-color: #333;
   }
   
-  li {
+  .navbar2 {
     float: left;
   }
   
-  li a {
+  .navbar2 a {
     display: block;
     color: white;
     text-align: center;
@@ -45,10 +45,10 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  .navbar2 a:hover:not(.active) {
     background-color: #111;
   }
   
   .active {
     background-color: #04AA6D;
-  }
+  }s
